@@ -18,3 +18,8 @@ fruit[2].style.backgroundColor='yellow'
 for(let i=0;i<fruit.length;i++){
   fruit[i].style.fontWeight='bold'
 }
+const fruittag=document.getElementsByTagName('li')
+fruittag[4].style.color='blue'
+for(let i=0; i<fruittag.length;i++){
+  fruittag[i].style.fontStyle='italic'
+}
